@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homepage"
+    android:background="@color/ivory">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:background="@color/bluedark"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/jacobandson"
+                android:gravity="start"
+                android:text="@string/app_name"
+                android:textColor="@color/ivory"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="30dp"
+                />
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/logo"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:padding="10dp"
+            android:rowCount="3"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/phone"
+                android:layout_width="180dp"
+                android:layout_height="190dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:background="@drawable/whiteshape"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/phoneimg"
+                        android:layout_width="107dp"
+                        android:layout_height="98dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/subtlepink"
+                        android:foregroundGravity="center"
+                        android:src="@drawable/phonenew" />
+
+                    <TextView
+                        android:id="@+id/phonetxt"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginStart="20dp"
+                        android:fontFamily="@font/acarisansbold"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/task1"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/message"
+                android:layout_width="180dp"
+                android:layout_height="190dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="@drawable/whiteshape"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/messageimg"
+                        android:layout_width="107dp"
+                        android:layout_height="98dp"
+                        android:layout_gravity="center"
+                        android:background="@color/cyan"
+                        android:layout_margin="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:foregroundGravity="center"
+                        android:src="@drawable/message" />
+
+                    <TextView
+                        android:id="@+id/messagetxt"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/acarisansbold"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/task2"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/consult"
+                android:layout_width="180dp"
+                android:layout_height="190dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:background="@drawable/whiteshape"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/consultimg"
+                        android:layout_width="107dp"
+                        android:layout_height="98dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:foregroundGravity="center"
+                        android:background="@color/paleblue"
+                        android:src="@drawable/doctor" />
+
+                    <TextView
+                        android:id="@+id/consulttxt"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginStart="10dp"
+                        android:fontFamily="@font/acarisansbold"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="@string/task3"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/foodsubscription"
+                android:layout_width="180dp"
+                android:layout_height="190dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:background="@drawable/whiteshape"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/foodimg"
+                        android:layout_width="107dp"
+                        android:layout_height="98dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:foregroundGravity="center"
+                        android:src="@drawable/food" />
+
+                    <TextView
+                        android:id="@+id/foodtxt"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/acarisansbold"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/task4"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/donor"
+                android:layout_width="180dp"
+                android:layout_height="190dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:focusable="true"
+                android:background="@drawable/whiteshape">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/donorimg"
+                        android:layout_width="107dp"
+                        android:layout_height="98dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/subtlepink"
+                        android:foregroundGravity="center"
+                        android:src="@drawable/blood" />
+
+                    <TextView
+                        android:id="@+id/donortxt"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/acarisansbold"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/task5"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/coronalife"
+                        android:layout_width="180dp"
+                        android:layout_height="190dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:background="@color/subtlepink"
+                                android:id="@+id/coronaimg"
+                                android:layout_width="107dp"
+                                android:layout_height="98dp"
+                                android:layout_margin="10dp"
+                                android:layout_marginBottom="20dp"
+                                android:layout_gravity="center"
+                                android:foregroundGravity="center"
+                                android:src="@drawable/heart" />
+
+                            <TextView
+                                android:id="@+id/coronatxt"
+                                android:layout_width="190dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:layout_marginStart="5dp"
+                                android:fontFamily="@font/acarisansbold"
+                                android:gravity="center"
+                                android:padding="10dp"
+                                android:text="@string/task6"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

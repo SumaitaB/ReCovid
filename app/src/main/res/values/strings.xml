@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ReCovid</string>
+    <string name="task1">TALK TO SOMEONE</string>
+    <string name="task2">TEXT SOMEONE</string>
+    <string name="task3">CONSULT</string>
+    <string name="task4">FOOD SUBSCRIPTION</string>
+    <string name="task5">FIND DONOR</string>
+    <string name="task6">CORONA LIFE</string>
+
+
+</resources>

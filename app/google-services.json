@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "469129883807",
+    "firebase_url": "https://recovid-b2af9.firebaseio.com",
+    "project_id": "recovid-b2af9",
+    "storage_bucket": "recovid-b2af9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469129883807:android:bb9c0d6d998f855e6372aa",
+        "android_client_info": {
+          "package_name": "com.example.recovid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469129883807-um33dr0c432shf6f34q4vjsv8sthjfno.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.recovid",
+            "certificate_hash": "7f49b9f9c1d3908975499d930c1b3bf3ee89200e"
+          }
+        },
+        {
+          "client_id": "469129883807-8u322a1329nv4j4gq5kksum9eh6n4cea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTlc2EBr_e0HgdiOJaax3QoEg7ipaR3Ic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469129883807-8u322a1329nv4j4gq5kksum9eh6n4cea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

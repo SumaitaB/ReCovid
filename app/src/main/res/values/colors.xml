@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="indigo">#625CE0 </color>
+    <color name="cyan">#5CE0DC</color>
+    <color name="paste">#249894</color>
+    <color name="paleblue">#AAEEEC</color>
+    <color name="greenblue">#5FFCC8</color>
+    <color name="grass">#2BD16D</color>
+    <color name="brihtgreen">#67E62C</color>
+    <color name="brightyellow">#F4F458</color>
+    <color name="gray">#A4B0A3</color>
+    <color name="orange">#F87F2A</color>
+    <color name="palered">#FC8071</color>
+    <color name="red">#FA3018</color>
+    <color name="purple">#F96AF2</color>
+    <color name="lime">#DAF7A6</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="subtleWhite">#ffffed</color>
+    <color name="subtleblue">#a4d4f6</color>
+    <color name="subtered">#e18c85</color>
+    <color name="subtlepink">#f7e6d2</color>
+    <color name="bluedark">	#483D8B</color>
+    <color name="navyblue">#000080</color>
+    <color name="cyandark">	#008B8B</color>
+    <color name="greeandark">#2E8B57</color>
+    <color name="reddark">	#8B0000</color>
+    <color name="brick">#B22222</color>
+    <color name="ivory">#FFFFF0</color>
+
+
+</resources>

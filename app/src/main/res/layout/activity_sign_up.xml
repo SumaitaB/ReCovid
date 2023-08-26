@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:background="@color/indigo"
+    android:padding="40dp"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"
+        android:text="SIGN UP"
+        android:textStyle="bold"
+        android:fontFamily="@font/acarisansbold"
+        android:id="@+id/signup"
+        android:textColor="@color/ivory"
+        android:shadowColor="@color/navyblue"
+        android:padding="20dp"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_below="@id/signup"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:textColorHint="@color/ivory"
+        >
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Username"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:ems="10"
+            android:layout_margin="5dp"
+            android:inputType="text"
+            android:fontFamily="@font/acarisansbold"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:outlineSpotShadowColor="@color/ivory"
+        android:layout_below="@+id/username"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:textColorHint="@color/ivory"
+        >
+
+        <EditText
+            android:id="@+id/useremail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter User Email"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="@color/ivory"
+            android:ems="10"
+            android:layout_margin="5dp"
+            android:inputType="textEmailAddress"
+            android:fontFamily="@font/acarisansbold"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:outlineSpotShadowColor="@color/ivory"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/useremail"
+        android:padding="5dp"
+        android:textColorHint="@color/ivory"
+        android:fontFamily="@font/acarisansbold"
+        >
+
+        <EditText
+            android:id="@+id/userpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="@color/ivory"
+            android:ems="10"
+            android:layout_margin="5dp"
+            android:inputType="textPassword"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:outlineSpotShadowColor="@color/ivory"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/userpassword"
+        android:textColorHint="@color/ivory"
+        android:padding="5dp"
+        >
+
+        <EditText
+            android:id="@+id/confirmpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="@color/ivory"
+            android:ems="10"
+            android:layout_margin="5dp"
+            android:inputType="textPassword"
+            android:fontFamily="@font/acarisansbold"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirmpassword"
+        android:orientation="horizontal"
+        android:id="@+id/radio"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Gender"
+            android:fontFamily="@font/acarisansbold"
+            android:textColor="@color/ivory"
+            android:layout_margin="5dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ivory"
+            android:text="MALE"
+            android:textSize="20dp"
+            android:fontFamily="@font/acarisansbold"
+            android:id="@+id/male"
+            android:layout_margin="5dp"/>
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/acarisansbold"
+            android:text="FEMALE"
+            android:textColor="@color/ivory"
+            android:textSize="20dp" />
+    </RadioGroup>
+    <Spinner
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:id="@+id/userType"
+        android:background="@drawable/stylespinner"
+        android:autofillHints="User"
+        android:popupBackground="@color/subtered"
+        android:popupElevation="20dp"
+        android:textAlignment="textStart"
+        />
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radio"
+        android:text="REGISTER"
+        android:background="@drawable/roundbutton"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/acarisansbold"
+        android:textSize="30dp"
+        android:textColor="@color/ivory"
+        />
+</LinearLayout>

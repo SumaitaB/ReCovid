@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginPage"
+    android:orientation="vertical"
+    android:background="@color/subtlepink"
+    android:padding="30dp"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/login"
+        android:padding="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="LOG IN"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:fontFamily="@font/acarisansbold"
+        android:id="@+id/signup"
+        android:textColor="@color/brick"
+        android:padding="10dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:padding="10dp"
+        android:textColorHint="@color/brick"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:ems="10"
+            android:layout_margin="10dp"
+            android:inputType="textEmailAddress"
+            android:fontFamily="@font/acarisansbold"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:padding="10dp"
+        android:textColorHint="@color/brick"
+        app:passwordToggleEnabled="true"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:ems="10"
+            android:layout_margin="10dp"
+            android:inputType="textPassword"
+            android:fontFamily="@font/acarisansbold"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:id="@+id/userType"
+        android:background="@drawable/stylespinner"
+        android:autofillHints="User"
+        android:popupBackground="@color/subtered"
+        android:popupElevation="20dp"
+        android:textAlignment="textStart"
+        />
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radio"
+        android:text="LOG IN"
+        android:background="@drawable/roundbutton"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/acarisansbold"
+        android:textSize="20sp"
+        android:textColor="@color/ivory"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signupbtn"
+        android:text="SIGN UP"
+        android:background="@drawable/roundbutton"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/acarisansbold"
+        android:textSize="20dp"
+        android:textColor="@color/ivory"
+
+        />
+
+</LinearLayout>
