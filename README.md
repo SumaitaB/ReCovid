@@ -1,4 +1,4 @@
-<h1>Project: ReCovid</h1>
+# ReCovid Mobile App
 <h2>Let’s Recover from Covid-19</h2>
 
 <h3>What does the project do?</h3>
