@@ -1,7 +1,7 @@
 # ReCovid Mobile App
-## Let’s Recover from Covid-19
+<i> Let’s Recover from Covid-19 </i>
 
-<h3>What does the project do?</h3>
+### What does the project do?
 Covid-19 in the form of a pandemic has managed to create impediments in our lives since day 01. The pandemic has created a stigmatized situation in the country and so, whenever someone is found to be tested positive for the virus, most people don’t bother helping or caring at all.
 
 
