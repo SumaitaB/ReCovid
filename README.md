@@ -47,7 +47,8 @@ Getting a good grip of MAD (Mobile App Development), ways to ensure proper team 
 
 3.	As we have already ensured collection of a vast amount of data related to doctors and created a database on that, we plan on turning this app into a app that may help doctors establish connection with patients suffering from different kinds of diseases and engaging volunteers looking forward to helping for other health, community and society related virtuous causes.
 <hr>
-<h3>How is does our project create social awareness?</h3>
+
+### How is does our project create social awareness?
 
 1.	Our project is an excellent way of creating community engagement as it focuses on helping the community create an easier way of ensuring health, communication, food subscription as well safe blood and plasma donation.
 
