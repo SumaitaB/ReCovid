@@ -39,7 +39,8 @@ Creating different UI for different users, data collection, collecting valid inf
 <hr>
 <h3>What did we learn?</h3>
 Getting a good grip of MAD (Mobile App Development), ways to ensure proper team work and establishing proper team communication while learning how to divide the tasks among the team members effectively.
-<h3>What’s next for our project?</h3>
+
+### What’s next for our project?
 
 1.	After Covid-19, our strategy is to put the project to use by handling Covid-19 aftermath. Meaning, we plan on including newer features about providing the people in need with post Covid-19 mental health consultation.
 
