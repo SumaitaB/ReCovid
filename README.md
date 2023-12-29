@@ -34,7 +34,8 @@ Hardware: Laptop with Processor Intel Core i3, 8 GB RAM.
 Software: Canva, Freepik, Drive, Flaticon, Vecteezy, icons8.
 
 <hr>
-<h3>Challenges we ran into?</h3>
+
+### Challenges we ran into?
 Creating different UI for different users, data collection, collecting valid information, coming up with a strong app strategy, making the app as user friendly as possible.
 <hr>
 <h3>What did we learn?</h3>
