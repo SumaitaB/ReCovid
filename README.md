@@ -38,7 +38,8 @@ Software: Canva, Freepik, Drive, Flaticon, Vecteezy, icons8.
 ### Challenges we ran into?
 Creating different UI for different users, data collection, collecting valid information, coming up with a strong app strategy, making the app as user friendly as possible.
 <hr>
-<h3>What did we learn?</h3>
+
+### What did we learn?
 Getting a good grip of MAD (Mobile App Development), ways to ensure proper team work and establishing proper team communication while learning how to divide the tasks among the team members effectively.
 
 ### What’s next for our project?
