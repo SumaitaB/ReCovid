@@ -19,7 +19,8 @@ Note: The app is to be used while being connected to the internet.
 ### What/Who was the inspiration?
 When Covid-19 took the form of a pandemic, people seem to be reluctant about helping people who got tested positive for the virus fearing that they might catch it too. Also, patients and those who recovered face a lot of stigma in the society and are often outcast by those around them. Besides taking a toll on the patient's physical health, COVID-19 causes emotional damage too due to the stigmatization and uncertainties and hence, these people (both patients and recovered) who are suffering while being shunned and neglected by other people became our prime motivation for this project. 
 <hr>
-<h3>What did we use to build it?</h3>
+
+### What did we use to build it?
 
 Framework: Android Studio 4.0.
 
