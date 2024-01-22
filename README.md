@@ -1,4 +1,4 @@
-# ReCovid Mobile App
+## ReCovid Mobile App
  <i> Let’s Recover from Covid-19 </i>
 
 ### What does the project do?
